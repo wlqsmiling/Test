@@ -8,7 +8,8 @@
 #include <iostream>
 using namespace std;
 
-bool fooo() {
+bool fooo()
+{
     int a = 0;
 
     return a > 0;
@@ -16,12 +17,22 @@ bool fooo() {
 
 class BeforeMain
 {
-    public:
+public:
     static bool foo;
 };
 
 bool BeforeMain::foo = fooo();
 
-int main() {
-    cout<<BeforeMain::foo<<endl;
+int main()
+{
+    cout << BeforeMain::foo << endl;
+    
+    int arr[100] = {0};
+
+    for(int i:arr) {
+        cout<<i<<endl;
+    }
+
+    int a = 1;
+    int &b = a;
 }

@@ -16,6 +16,17 @@
         "rtnetlink.h": "c",
         "types.h": "c",
         "stdlib.h": "c",
-        "in.h": "c"
+        "in.h": "c",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "array": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "*.tcc": "cpp"
     }
 }
