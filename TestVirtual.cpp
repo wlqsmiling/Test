@@ -8,6 +8,7 @@
 
 using namespace std;
 
+//haha
 class base {
     public:
     virtual void test() {
